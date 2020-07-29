@@ -1,0 +1,29 @@
+{
+    "name": "Gualang-Snippet",
+    "description": "Gualang Snippet",
+    "author": "gualang-ide",
+    "license": "MIT",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gualang-ide/gualang-vscode-snippets"
+    },
+    "publisher": "gualang-ide",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "gualang"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "gualang",
+                "path": "./snippets.json"
+            }
+        ]
+    }
+}

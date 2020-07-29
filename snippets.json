@@ -1,0 +1,17 @@
+{
+    "for": {
+        "prefix": ["for"],
+        "body": ["for (var i = ${1:0}; i < ${2:array}.length(); i += ${3:1}) {", "\t$0", "}"],
+        "description": "snippet"
+    },
+    "if": {
+        "prefix": ["if"],
+        "body": ["if ($1) {", "\t$0", "}"],
+        "description": "snippet"
+    },
+    "while": {
+        "prefix": ["while"],
+        "body": ["while ($1) {", "\t$0", "}"],
+        "description": "snippet"
+    }
+}
