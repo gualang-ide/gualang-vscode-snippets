@@ -8,7 +8,7 @@
 			"\t$0",
 			"}"
 		],
-		"description": "snippet"
+		"description": "for in"
 	},
 	"if": {
 		"prefix": [
@@ -19,7 +19,18 @@
 			"\t$0",
 			"}"
 		],
-		"description": "snippet"
+		"description": "if"
+	},
+	"function": {
+		"prefix": [
+			"fu"
+		],
+		"body": [
+			"const ${1:functionName} = function(${2}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "function"
 	},
 	"while": {
 		"prefix": [
@@ -30,6 +41,6 @@
 			"\t$0",
 			"}"
 		],
-		"description": "snippet"
+		"description": "while"
 	}
 }
