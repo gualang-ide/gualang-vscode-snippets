@@ -1,17 +1,46 @@
 {
-    "for": {
-        "prefix": ["for"],
-        "body": ["for (var i = ${1:0}; i < ${2:array}.length(); i += ${3:1}) {", "\t$0", "}"],
-        "description": "snippet"
-    },
-    "if": {
-        "prefix": ["if"],
-        "body": ["if ($1) {", "\t$0", "}"],
-        "description": "snippet"
-    },
-    "while": {
-        "prefix": ["while"],
-        "body": ["while ($1) {", "\t$0", "}"],
-        "description": "snippet"
-    }
+	"for indexed": {
+		"prefix": [
+			"for"
+		],
+		"body": [
+			"for (var i = ${1:0}; i < ${2:array}.length(); i += ${3:1}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "snippet"
+	},
+	"for in": {
+		"prefix": [
+			"for"
+		],
+		"body": [
+			"for (${2:i}, ${3:e} in ${1:array}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "snippet"
+	},
+	"if": {
+		"prefix": [
+			"if"
+		],
+		"body": [
+			"if ($1) {",
+			"\t$0",
+			"}"
+		],
+		"description": "snippet"
+	},
+	"while": {
+		"prefix": [
+			"while"
+		],
+		"body": [
+			"while ($1) {",
+			"\t$0",
+			"}"
+		],
+		"description": "snippet"
+	}
 }
