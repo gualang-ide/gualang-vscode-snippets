@@ -42,5 +42,31 @@
 			"}"
 		],
 		"description": "while"
+	},
+	"main": {
+		"prefix": [
+			"main"
+		],
+		"body": [
+			"const __main = function() {",
+			"\t$0",
+			"}",
+			"",
+			"__main()"
+		],
+		"description": "mainon functi"
+	},
+	"class": {
+		"prefix": [
+			"class"
+		],
+		"body": [
+			"const ${1:ClassName} = class() {",
+			"\tconst new = function(${2:parameters}) {",
+			"\t\t$0",
+			"\t}",
+			"}",
+		],
+		"description": "class definition"
 	}
 }
