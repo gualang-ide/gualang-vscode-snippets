@@ -26,7 +26,7 @@
 			"fu"
 		],
 		"body": [
-			"const ${1:functionName} = function(${2}) {",
+			"con ${1:functionName} = function(${2}) {",
 			"\t$0",
 			"}"
 		],
@@ -48,21 +48,19 @@
 			"main"
 		],
 		"body": [
-			"const __main = function() {",
+			"con __main = function() {",
 			"\t$0",
-			"}",
-			"",
-			"__main()"
+			"}"
 		],
-		"description": "mainon functi"
+		"description": "main function"
 	},
 	"class": {
 		"prefix": [
 			"class"
 		],
 		"body": [
-			"const ${1:ClassName} = class() {",
-			"\tconst new = function(${2:parameters}) {",
+			"con ${1:ClassName} = class() {",
+			"\tcon new = function(${2:parameters}) {",
 			"\t\t$0",
 			"\t}",
 			"}",
